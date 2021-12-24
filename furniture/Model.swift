@@ -77,9 +77,9 @@ struct Models {
     init() {
         // Tables
         let diningTable = Model(name: "dining_table", category: .table, scaleCompenation: 0.32/100)
-        let familyTable = Model(name: "family_table", category: .table, scaleCompenation: 0.32/100)
+        let Santa_Claus = Model(name: "Santa_Claus", category: .table, scaleCompenation: 0.32/100)
         
-        self.all += [diningTable, familyTable]
+        self.all += [diningTable, Santa_Claus]
         
         
         // Chairs

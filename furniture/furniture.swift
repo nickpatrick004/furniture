@@ -16,6 +16,7 @@ struct furniture: App {
         WindowGroup {
             ContentView()
                 .environmentObject(placementSettings)
+            
         }
     }
 }
