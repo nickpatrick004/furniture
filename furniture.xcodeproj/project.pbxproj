@@ -19,6 +19,7 @@
 		DDA42AE6277549550043C949 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = DDA42AE5277549550043C949 /* FocusEntity */; };
 		DDA42AE827754A600043C949 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42AE727754A600043C949 /* CustomARView.swift */; };
 		DDA42AEA277555130043C949 /* Santa_Claus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DDA42AE9277555130043C949 /* Santa_Claus.usdz */; };
+		DDBC2C5D2778E1C900C70ADC /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC2C5C2778E1C900C70ADC /* View+Extensions.swift */; };
 		DDF0472F2773A2CB0023AD91 /* dining_table.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DDF0472E2773A2CB0023AD91 /* dining_table.usdz */; };
 		DDF047312773C23B0023AD91 /* file_cabinet.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DDF047302773C23B0023AD91 /* file_cabinet.usdz */; };
 		DDF581C6276D0F9300946C9A /* dining_chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DDF581C5276D0F9300946C9A /* dining_chair.usdz */; };
@@ -38,6 +39,7 @@
 		DD9C01EA276BF0B20092CB0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDA42AE727754A600043C949 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		DDA42AE9277555130043C949 /* Santa_Claus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Santa_Claus.usdz; sourceTree = "<group>"; };
+		DDBC2C5C2778E1C900C70ADC /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		DDF0472E2773A2CB0023AD91 /* dining_table.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = dining_table.usdz; sourceTree = "<group>"; };
 		DDF047302773C23B0023AD91 /* file_cabinet.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = file_cabinet.usdz; sourceTree = "<group>"; };
 		DDF581C5276D0F9300946C9A /* dining_chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = dining_chair.usdz; sourceTree = "<group>"; };
@@ -78,11 +80,12 @@
 				DD9C01E1276BF0AE0092CB0C /* furniture.swift */,
 				DD9C01E3276BF0AE0092CB0C /* ContentView.swift */,
 				DDA42AE727754A600043C949 /* CustomARView.swift */,
+				DDF581C9276D133500946C9A /* ControlView.swift */,
 				DD49F97B276E45DA002A2A7A /* BrowseView.swift */,
 				DD2FB5EC2774109100082093 /* PlacementView.swift */,
 				DD2FB5EA2774038B00082093 /* PlacementSettings.swift */,
 				DD571389276EDDA9007D64CF /* Model.swift */,
-				DDF581C9276D133500946C9A /* ControlView.swift */,
+				DDBC2C5C2778E1C900C70ADC /* View+Extensions.swift */,
 				DD9C01E5276BF0AE0092CB0C /* Experience.rcproject */,
 				DD9C01E7276BF0B20092CB0C /* Assets.xcassets */,
 				DDF581C4276D0F5000946C9A /* 3D Assets */,
@@ -198,6 +201,7 @@
 				DD49F97C276E45DB002A2A7A /* BrowseView.swift in Sources */,
 				DD57138A276EDDA9007D64CF /* Model.swift in Sources */,
 				DD9C01E2276BF0AE0092CB0C /* furniture.swift in Sources */,
+				DDBC2C5D2778E1C900C70ADC /* View+Extensions.swift in Sources */,
 				DD9C01E6276BF0AE0092CB0C /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
