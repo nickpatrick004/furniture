@@ -10,6 +10,7 @@ import SwiftUI
 struct ControlView: View {
     @Binding var isControlsVisible: Bool
     @Binding var showBrowse: Bool
+    @Binding var showSettings: Bool
     
     var body: some View {
         VStack {
@@ -18,7 +19,7 @@ struct ControlView: View {
             Spacer()
             
             if isControlsVisible {
-                ControlButtonBar(showBrowse: $showBrowse)
+                ControlButtonBar(showBrowse: $showBrowse, showSettings: $showSettings)
             }
             
         }
@@ -58,6 +59,7 @@ struct ControlVisibilityToggleButton: View {
 struct ControlButtonBar: View {
     @EnvironmentObject var placementSettings: PlacementSettings
     @Binding var showBrowse: Bool
+    @Binding var showSettings: Bool
     
     var body: some View {
         HStack {
@@ -81,9 +83,10 @@ struct ControlButtonBar: View {
             // Setting Button
             ControlButton(systemIconName: "slider.horizontal.3") {
                 print("Settings Button Pressed.")
+                self.showSettings.toggle()
+            }.sheet(isPresented: $showSettings) {
+                SettingsView(showSettings: $showSettings)
             }
-            
-            
         }
         .frame(maxWidth: 500)
         .padding(30)
