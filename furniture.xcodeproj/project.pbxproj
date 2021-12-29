@@ -12,6 +12,7 @@
 		DD2FB5ED2774109100082093 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FB5EC2774109100082093 /* PlacementView.swift */; };
 		DD49F97C276E45DB002A2A7A /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD49F97B276E45DA002A2A7A /* BrowseView.swift */; };
 		DD57138A276EDDA9007D64CF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD571389276EDDA9007D64CF /* Model.swift */; };
+		DD6D719F277BE95A00F6A9FC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DD6D719E277BE95A00F6A9FC /* .gitignore */; };
 		DD9C01E2276BF0AE0092CB0C /* furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C01E1276BF0AE0092CB0C /* furniture.swift */; };
 		DD9C01E4276BF0AE0092CB0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C01E3276BF0AE0092CB0C /* ContentView.swift */; };
 		DD9C01E6276BF0AE0092CB0C /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DD9C01E5276BF0AE0092CB0C /* Experience.rcproject */; };
@@ -38,6 +39,7 @@
 		DD2FB5EC2774109100082093 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
 		DD49F97B276E45DA002A2A7A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		DD571389276EDDA9007D64CF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DD6D719E277BE95A00F6A9FC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		DD9C01DE276BF0AE0092CB0C /* furniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = furniture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9C01E1276BF0AE0092CB0C /* furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = furniture.swift; sourceTree = "<group>"; };
 		DD9C01E3276BF0AE0092CB0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				DD9C01E5276BF0AE0092CB0C /* Experience.rcproject */,
 				DD9C01E7276BF0B20092CB0C /* Assets.xcassets */,
 				DDD233D7277AAC91008A4D24 /* GoogleService-Info.plist */,
+				DD6D719E277BE95A00F6A9FC /* .gitignore */,
 				DD9C01E9276BF0B20092CB0C /* Preview Content */,
 			);
 			path = furniture;
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6D719F277BE95A00F6A9FC /* .gitignore in Resources */,
 				DD9C01EB276BF0B20092CB0C /* Preview Assets.xcassets in Resources */,
 				DD9C01E8276BF0B20092CB0C /* Assets.xcassets in Resources */,
 				DDD233D8277AAC91008A4D24 /* GoogleService-Info.plist in Resources */,
