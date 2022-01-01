@@ -13,6 +13,7 @@ import Firebase
 struct furniture: App {
     @StateObject var placementSettings = PlacementSettings()
     @StateObject var sessionSettings = SessionSettings()
+    @StateObject var sceneManager = SceneManager()
     
     init() {
         FirebaseApp.configure()
@@ -35,6 +36,7 @@ struct furniture: App {
             ContentView()
                 .environmentObject(placementSettings)
                 .environmentObject(sessionSettings)
+                .environmentObject(sceneManager)
             
         }
     }
