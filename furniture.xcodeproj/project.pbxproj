@@ -22,12 +22,12 @@
 		DDA42AE827754A600043C949 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42AE727754A600043C949 /* CustomARView.swift */; };
 		DDBC2C5D2778E1C900C70ADC /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC2C5C2778E1C900C70ADC /* View+Extensions.swift */; };
 		DDC54D842781032B009CCCAB /* ARViewContainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54D832781032B009CCCAB /* ARViewContainter.swift */; };
+		DDC54D862781095C009CCCAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDC54D852781095C009CCCAB /* GoogleService-Info.plist */; };
 		DDD233CE277A969B008A4D24 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDD233CD277A969B008A4D24 /* FirebaseAuth */; };
 		DDD233D0277A969B008A4D24 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DDD233CF277A969B008A4D24 /* FirebaseFirestore */; };
 		DDD233D2277A969B008A4D24 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DDD233D1277A969B008A4D24 /* FirebaseFirestoreSwift-Beta */; };
 		DDD233D4277A969B008A4D24 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DDD233D3277A969B008A4D24 /* FirebaseStorage */; };
 		DDD233D6277A969B008A4D24 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DDD233D5277A969B008A4D24 /* FirebaseStorageSwift-Beta */; };
-		DDD233D8277AAC91008A4D24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDD233D7277AAC91008A4D24 /* GoogleService-Info.plist */; };
 		DDE80EF527793A5300404B55 /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE80EF427793A5300404B55 /* SessionSettings.swift */; };
 		DDE80EF727793B7F00404B55 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE80EF627793B7F00404B55 /* SettingsView.swift */; };
 		DDF4008C27801BE000A3E16E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF4008B27801BE000A3E16E /* GoogleService-Info.plist */; };
@@ -50,7 +50,7 @@
 		DDA42AE727754A600043C949 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		DDBC2C5C2778E1C900C70ADC /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		DDC54D832781032B009CCCAB /* ARViewContainter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainter.swift; sourceTree = "<group>"; };
-		DDD233D7277AAC91008A4D24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDC54D852781095C009CCCAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDE80EF427793A5300404B55 /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
 		DDE80EF627793B7F00404B55 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DDF4008B27801BE000A3E16E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 				DDA3EEA7277AB85A00232B6B /* ModelsViewModel.swift */,
 				DDBC2C5C2778E1C900C70ADC /* View+Extensions.swift */,
 				DD9C01E5276BF0AE0092CB0C /* Experience.rcproject */,
+				DDC54D852781095C009CCCAB /* GoogleService-Info.plist */,
 				DD9C01E7276BF0B20092CB0C /* Assets.xcassets */,
-				DDD233D7277AAC91008A4D24 /* GoogleService-Info.plist */,
 				DDF4008B27801BE000A3E16E /* GoogleService-Info.plist */,
 				DD9C01E9276BF0B20092CB0C /* Preview Content */,
 			);
@@ -195,9 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9C01EB276BF0B20092CB0C /* Preview Assets.xcassets in Resources */,
+				DDC54D862781095C009CCCAB /* GoogleService-Info.plist in Resources */,
 				DDF4008C27801BE000A3E16E /* GoogleService-Info.plist in Resources */,
 				DD9C01E8276BF0B20092CB0C /* Assets.xcassets in Resources */,
-				DDD233D8277AAC91008A4D24 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
