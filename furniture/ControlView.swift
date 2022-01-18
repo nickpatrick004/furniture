@@ -157,7 +157,7 @@ struct SceneButtons: View {
             print("Load Scene button pressed.")
             self.sceneManager.shouldLoadSceneFromFilesystem = true
         }
-        .hidden(self.sceneManager.scencePersistenceData == nil)
+        .hidden(self.sceneManager.scenePersistenceData == nil)
         
         Spacer()
         
