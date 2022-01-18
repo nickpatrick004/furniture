@@ -7,6 +7,7 @@
 
 import Foundation
 import RealityKit
+import ARKit
 
 class ScenePersisitenceHelper {
     class func saveScene(for arView: CustomARView, at persistenceUrl: URL) {
@@ -34,5 +35,22 @@ class ScenePersisitenceHelper {
     
     class func loadScene(for arView: CustomARView, with scenePersistenceData: Data) {
         print("Load scene from local filesystem.")
+        
+        // 1. Unarchive the scenePersistenceData and retrieve ARWorldMap
+        let worldMap: ARWorldMap = {
+            do {
+                guard let worldMap = try NSKeyedUnarchiver.unarchivedObject(ofClass: ARWorldMap.self, from: scenePersistenceData) else { fatalError("Persistence Error: No ARWorldMap in archive.")
+                }
+                
+                return worldMap
+            } catch {
+                fatalError("Persistence Error: Unable to unarchive ARWorldMap from scenePersistenceData: \(error.localizedDescription)")
+            }
+        }()
+        
+        // 2. Reset configuration and load worldMap as initialWorldMap
+        let newConfig = arView.defaultConfiguration
+        newConfig.initialWorldMap = worldMap
+        arView.session.run(newConfig, options: [.resetTracking, .removeExistingAnchors])
     }
 }
