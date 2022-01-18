@@ -16,7 +16,7 @@ class ScenePersisitenceHelper {
         arView.session.getCurrentWorldMap { worldMap, error in
             
             // 2. Safely upwrap worldMap
-            guard let map - worldMap else {
+            guard let map = worldMap else {
                 print("Persistence Error: unable to get worldMap: \(error!.localizedDescription)")
                 return
             }
